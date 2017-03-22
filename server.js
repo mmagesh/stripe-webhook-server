@@ -2,6 +2,7 @@ var debug = require('debug')('webhook-server');
 var express = require('express');
 var http = require('http');
 var config = require('./config.js');
+var db = require('./db'); 
 var routes = require('./routes/');
 var app = express();
 
